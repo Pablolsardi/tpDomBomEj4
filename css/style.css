@@ -1,0 +1,67 @@
+body{
+    background-image: url(../img/cielo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contenedorPrincipal{
+    background-color: black;
+    opacity: 70%;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 250px;
+    width: 50%;
+}
+
+#textoFecha{
+    font-size: 35px;
+}
+
+#divDerecho{
+    padding-top: 15px;
+}
+
+#numerosHora{
+    font-size: 150px;
+    line-height: 1;
+}
+
+#pmam{
+    font-size: 60px;
+    line-height: 0;
+}
+
+#numerosSegundos{
+    font-size: 60px;
+    line-height: 0;
+}
+
+@media screen and (max-width: 767px){
+    #contenedorPrincipal{
+        width: 80%;
+    }
+
+    #textoFecha{
+        font-size: 15px;
+    }
+    
+    #divDerecho{
+        padding: 0;
+    }
+
+    #numerosHora{
+        font-size: 80px;
+        line-height: 1;
+    }
+    
+    #pmam{
+        font-size: 30px;
+        line-height: 0;
+    }
+    
+    #numerosSegundos{
+        font-size: 30px;
+        line-height: 0;
+    }
+}
